@@ -16,14 +16,14 @@ _此方式也可運用在大部分的標籤及現在很夯的svg！！
 ```html
     <!-- 載入以下js及css -->
     <link rel="stylesheet" type="text/css" href="css/animate.css" />
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script src="js/jquery.inview.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="js/jquery.inview.js"></script>
     <script src="js/animate.js"></script>
 
-	<!-- 針對想加入效果的元素加上class，效果已寫在css裏頭，如有需求可自行增加變化 -->
-	<img src="images/01.jpg" class="list-mv01"><!-- 由下往上淡入效果 -->
-	<img src="images/02.jpg" class="list-mv02"><!-- 由右往左淡入效果 -->
-	<img src="images/03.jpg" class="list-mv03"><!-- 由左往右淡入效果 -->
+    <!-- 針對想加入效果的元素加上class，效果已寫在css裏頭，如有需求可自行增加變化 -->
+    <img src="images/01.jpg" class="list-mv01"><!-- 由下往上淡入效果 -->
+    <img src="images/02.jpg" class="list-mv02"><!-- 由右往左淡入效果 -->
+    <img src="images/03.jpg" class="list-mv03"><!-- 由左往右淡入效果 -->
 ```
 若不想一直不停重複滑入動畫效果，可以改“jquery.inview.js”，約101行的部分，這部分也有註記！
    

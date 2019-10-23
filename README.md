@@ -119,10 +119,10 @@ mac：safari,edge,chrome,firefox_
 <br>
 範例中的offset，僅能使用實際數值（px），無法使用％<br><br>
 另外，可搭配的效果如下：<br>
-_data-wow-duration（動畫持續時間）<br>
+data-wow-duration（動畫持續時間）<br>
 data-wow-delay（動畫延遲時間）<br>
 data-wow-offset（元素的位置露出後距離底部多少像素執行<br>
-data-wow-iteration（動畫執行次數）(要一直重複的話可以用"infinite")_
+data-wow-iteration（動畫執行次數）(要一直重複的話可以用"infinite")
 
 ```html
    <section class="wow bounce" data-wow-offset="10" data-wow-iteration="10">測試</section>

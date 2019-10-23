@@ -40,6 +40,8 @@ _Animate.css 為我們預建了 75 種不同的動態效果，我們只要透過
 
    ![printscreen](images/animateCSS01.jpg)
 
+   圖為部分截圖
+   ![printscreen](images/animateCSS01.gif)
 快速應用方式：
 ```html
    <!-- 載入以下js及css -->
@@ -58,11 +60,18 @@ _Animate.css 為我們預建了 75 種不同的動態效果，我們只要透過
    <!-- 上面這個寫法會讓元素以每次 5 秒的速度重覆彈跳 3 次 -->	  
 ```
 
-*  [範例](http://www.milky-sky.com/brangista/animateShare/animateCSS01/animateCSS.html)  
+*  [animate.css 範例](http://www.milky-sky.com/brangista/animateShare/animateCSS01/animateCSS.html)<br>
+  
+*  [原套件官網](https://daneden.github.io/animate.css/)<br>
 
 _以上的方式常在日式網頁上常常看到，在範例中用圓點的樣式看起來可能不怎麼樣，但若套用到更可愛的圖案元素上，就更有感了！<br><br>以下提供可愛元素的範例：_
 
-*  [範例(和上方的範例部分效果不同)](http://www.milky-sky.com/brangista/animateShare/animateCSS02/animateCSS.html)  
+圖為部分截圖
+   ![printscreen](images/animateCSS02.gif)
+
+*  [loading.css 範例(和上方的範例部分效果不同)](http://www.milky-sky.com/brangista/animateShare/animateCSS02/animateCSS.html)  
+
+*  [原套件官網](https://loading.io/animation/)<br>
 
 *  [試套結果](http://www.milky-sky.com/brangista/NBBigMacTest/)  
 
@@ -78,6 +87,8 @@ _瀏覽器兼容:<br>
 windows：IE10以上,edge,chrome,firefox<br>
 mac：safari,edge,chrome,firefox_
 
+   ![printscreen](images/offsetValue.gif)
+
 快速應用方式：
 ```html
    <!-- 載入以下css及js -->
@@ -88,7 +99,7 @@ mac：safari,edge,chrome,firefox_
       var wow = new WOW({
          boxClass: 'wow', // 要套用WOW.js縮需要的動畫class(預設是wow)
          animateClass: 'animated', // 要"動起來"的動畫(預設是animated, 因此如果你有其他動畫library要使用也可以在這裡調整)
-         offset: 0, // 元素的位置露出後距離"底部"多少像素執行 (預設是0px，無法使用％)
+         offset: 200, // 元素的位置露出後距離"底部"多少像素執行 (預設是0px，無法使用％)
          mobile: true, // 手機上是否要套用動畫 (預設是true)
          live: true, // 非同步產生的內容是否也要套用 (預設是true, 非常適合搭配SPA)
          callback: function(box) {

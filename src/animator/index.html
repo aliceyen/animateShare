@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/animate.css" />
+</head>
+<body>
+
+  <section class="infomation" id="infomation" style="margin-top: 500px; height: 500px; background-color: blueviolet;">
+    <div id="openDate">6/17 創新募集</div>
+  </section>
+  <section class="infomation" id="infomation02" style="height: 1000px; background-color: red;">
+    <div id="openDate02">6/20 test1</div>
+    <div id="openDate03" class="delay-1s">6/21 test2</div>
+    <div id="openDate04" class="delay-2s">6/22 test3</div>
+    <div id="openDate05" class="delay-3s">6/23 test4</div>
+  </section>
+
+
+
+
+  <!-- jquery.js library -->
+  <script src="./js/jquery-1.12.4.min.js"></script>
+
+  <!-- waypoint.js library -->
+  <script src="./js/noframework.waypoints.min.js"></script>
+
+  <!-- script -->
+  <script>
+    $(document).ready(function () {
+
+      // use waypoint.js library whith title enter screen
+      function animateCSS(element, animationName, callback) {
+        var node = document.querySelector(element)
+        node.classList.add('animated', animationName, "faster")
+
+        function handleAnimationEnd() {
+          node.classList.remove('animated', animationName)
+          node.removeEventListener('animationend', handleAnimationEnd)
+
+          // 如果有傳入 callback function 時執行
+          if (typeof callback === 'function') callback()
+        }
+        node.addEventListener('animationend', handleAnimationEnd)
+      };
+
+      // 紫色區域
+      var openDate = new Waypoint({
+        element: document.getElementById('infomation'),
+        handler: function (direction) {
+          // 呼叫共用函式 animateCSS()
+          animateCSS('#openDate', 'bounce');
+        },
+        offset: "50%"
+      });
+
+      // 紅色區域
+      var openDate = new Waypoint({
+        element: document.getElementById('infomation02'),
+        handler: function (direction) {
+
+          // 呼叫共用函式 animateCSS()
+          animateCSS('#openDate02', 'bounce');
+          animateCSS('#openDate03', 'bounce');
+          animateCSS('#openDate04', 'bounce');
+          animateCSS('#openDate05', 'bounce');
+        },
+        offset: "200"
+      });
+
+    });
+  </script>
+
+</body>
+
+</html>

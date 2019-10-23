@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>animateCSS所有範例</title>
+	<style>
+		img{
+			width: 80px;
+		}
+	</style>
+	
+	<!-- 原css網址 --> <!-- <link rel="stylesheet" type="text/css" href="https://loading.io/css/loading.css"/> -->
+	<link rel="stylesheet" type="text/css" href="loading.css"/>
+</head>
+<body>
+	
+	<table width="100%" border="1" style="text-align: center;overflow: hidden;">
+	  <tbody>
+		<tr>
+		  <th scope="row">
+			  <img src="sample.svg" class="ld ld-surprise"/>
+			  <p>ld-surprise</p>
+		  </th>
+		  <td>
+			  <img src="sample.svg" class="ld ld-tick"/>
+			  <p>ld-tick</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-vortex-in"/>
+			  <p>ld-vortex-in</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-vortex-out"/>
+			  <p>ld-vortex-out</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <img src="sample.svg" class="ld ld-wrench"/>
+			  <p>ld-wrench</p>
+		  </th>
+		  <td>
+			  <img src="sample.svg" class="ld ld-pulse"/>
+			  <p>ld-pulse</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-bounce"/>
+			  <p>ld-bounce</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-bounce-rtl"/>
+			  <p>ld-bounce-rtl</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <img src="sample.svg" class="ld ld-bounce-ltr"/>
+			  <p>ld-bounce-ltr</p>
+		  </th>
+		  <td>
+			  <img src="sample.svg" class="ld ld-bounce-a-px"/>
+			  <p>ld-bounce-a-px</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-float" style="filter:drop-shadow(-25px 25px 25px rgba(26,58,70,0.7));" />
+			  <p>ld-float</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-hit"/>
+			  <p>ld-hit</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <img src="sample.svg" class="ld ld-jelly"/>
+			  <p>ld-jelly</p>
+		  </th>
+		  <td>
+			  <img src="sample.svg" class="ld ld-jump"/>
+			  <p>ld-jump</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-orbit"/>
+			  <p>ld-orbit</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-rush-rtl"/>
+			  <p>ld-rush-rtl</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <img src="sample.svg" class="ld ld-rush-ltr"/>
+			  <p>ld-rush-ltr</p>
+		  </th>
+		  <td>
+			  <img src="sample.svg" class="ld ld-shake"/>
+			  <p>ld-shake</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-slide-ltr"/>
+			  <p>ld-slide-ltr</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-slide-rtl"/>
+			  <p>ld-slide-rtl</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <img src="sample.svg" class="ld ld-slide-btt"/>
+			  <p>ld-slide-btt</p>
+		  </th>
+		  <td>
+			  <img src="sample.svg" class="ld ld-slide-ttb"/>
+			  <p>ld-slide-ttb</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-tremble"/>
+			  <p>ld-tremble</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-wander-h"/>
+			  <p>ld-wander-h</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <img src="sample.svg" class="ld ld-wander-v"/>
+			  <p>ld-wander-v</p>
+		  </th>
+		  <td>
+			  <img src="sample.svg" class="ld ld-jingle"/>
+			  <p>ld-jingle</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-swim"/>
+			  <p>ld-swim</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-leaf"/>
+			  <p>ld-leaf</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <img src="sample.svg" class="ld ld-slot"/>
+			  <p>ld-slot</p>
+		  </th>
+		  <td>
+			  <img src="sample.svg" class="ld ld-bounce-px"/>
+			  <p>ld-bounce-px</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-bounce-px-rtl"/>
+			  <p>ld-bounce-px-rtl</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-bounce-px-ltr"/>
+			  <p>ld-bounce-px-ltr</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <img src="sample.svg" class="ld ld-bounce-a-px"/>
+			  <p>ld-bounce-a-px</p>
+		  </th>
+		  <td>
+			  <img src="sample.svg" class="ld ld-float-px"/>
+			  <p>ld-float-px</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-hit-px"/>
+			  <p>ld-hit-px</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-jelly-px"/>
+			  <p>ld-jelly-px</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <img src="sample.svg" class="ld ld-jump-px"/>
+			  <p>ld-jump-px</p>
+		  </th>
+		  <td>
+			  <img src="sample.svg" class="ld ld-orbit-px"/>
+			  <p>ld-orbit-px</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-rush-px-rtl"/>
+			  <p>ld-rush-px-rtl</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-rush-px-ltr"/>
+			  <p>ld-rush-px-ltr</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <img src="sample.svg" class="ld ld-shake-px"/>
+			  <p>ld-shake-px</p>
+		  </th>
+		  <td>
+			  <img src="sample.svg" class="ld ld-slide-px-ltr"/>
+			  <p>ld-slide-px-ltr </p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-slide-px-rtl"/>
+			  <p>ld-slide-px-rtl</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-slide-px-btt"/>
+			  <p>ld-slide-px-btt</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <img src="sample.svg" class="ld ld-slide-px-ttb"/>
+			  <p>ld-slide-px-ttb</p>
+		  </th>
+		  <td>
+			  <img src="sample.svg" class="ld ld-tremble-px"/>
+			  <p>ld-tremble-px</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-wander-px-h"/>
+			  <p>ld-wander-px-h</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-wander-px-v"/>
+			  <p>ld-wander-px-v</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <img src="sample.svg" class="ld ld-jingle-px"/>
+			  <p>ld-jingle-px</p>
+		  </th>
+		  <td>
+			  <img src="sample.svg" class="ld ld-swim-px"/>
+			  <p>ld-swim-px</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-leaf-px"/>
+			  <p>ld-leaf-px</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-slot-px"/>
+			  <p>ld-slot-px</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <img src="sample.svg" class="ld ld-blink"/>
+			  <p>ld-blink</p>
+		  </th>
+		  <td>
+			  <img src="sample.svg" class="ld ld-blur"/>
+			  <p>ld-blur</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-breath"/>
+			  <p>ld-breath</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-broadcast"/>
+			  <p>ld-broadcast</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <img src="sample.svg" class="ld ld-clock"/>
+			  <p>ld-clock</p>
+		  </th>
+		  <td>
+			  <img src="sample.svg" class="ld ld-cycle"/>
+			  <p>ld-cycle</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-fade"/>
+			  <p>ld-fade</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-flip"/>
+			  <p>ld-flip</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <img src="sample.svg" class="ld ld-flip-v"/>
+			  <p>ld-flip-v</p>
+		  </th>
+		  <td>
+			  <img src="sample.svg" class="ld ld-flip-h"/>
+			  <p>ld-flip-h</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-coin-v"/>
+			  <p>ld-coin-v</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-coin-h"/>
+			  <p>ld-coin-h</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <img src="sample.svg" class="ld ld-heartbeat"/>
+			  <p>ld-heartbeat</p>
+		  </th>
+		  <td>
+			  <img src="sample.svg" class="ld ld-radio"/>
+			  <p>ld-radio</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-rotate"/>
+			  <p>ld-rotate</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-rubber"/>
+			  <p>ld-rubber</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <img src="sample.svg" class="ld ld-shadow"/>
+			  <p>ld-shadow</p>
+		  </th>
+		  <td>
+			  <img src="sample.svg" class="ld ld-shadow-a"/>
+			  <p>ld-shadow-a</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-skew"/>
+			  <p>ld-skew</p>
+		  </td>
+		  <td>
+			  <img src="sample.svg" class="ld ld-spin"/>
+			  <p>ld-spin</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <img src="sample.svg" class="ld ld-spin-fast"/>
+			  <p>ld-spin-fast</p>
+		  </th>
+		  <td>
+			  <img src="sample.svg" class="ld ld-squeeze"/>
+			  <p>ld-squeeze</p>
+		  </td>
+		  
+		</tr>
+		
+
+		
+	  </tbody>
+	</table>
+
+
+	
+	<div class="btn btn-primary ld ld-heartbeat" style="display: table; padding: 5px 15px; background: #337ab7; color: #FFF; margin: 10px 0; " > Click Me </div>
+	<img src="sample.svg" class="ld fa-refresh ld ld-spin"/>
+	<!-- <i class="fa fa-refresh ld ld-spin></i> -->
+
+	<div class="ld ld-blur">
+	  <img src="sample.svg" class="ld ld-surprise"/>
+	</div>
+
+
+
+	
+</body>
+</html>

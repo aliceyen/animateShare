@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>animateCSS所有範例</title>
+	<style>
+		table th{
+			padding-top: 50px;
+		}
+		div.circle{
+			border-radius: 100em;
+			width: 30px;
+			height: 30px;
+			background: #c05f6f;
+			margin: 0 auto;
+		}
+	</style>
+	
+	<!-- 原css網址 --> <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/> -->
+	<link rel="stylesheet" type="text/css" href="animate.css"/>
+
+</head>
+<body>
+	<table width="100%" border="1" style="text-align: center;overflow: hidden;">
+	  <tbody>
+		<tr>
+		  <th scope="row">
+			  <!-- 
+			  	animated: 啟用動畫
+			  	infinite: 無限循環
+			  	bounce:   彈跳效果
+			  -->
+			  <div class="circle animated bounce" style="animation-duration: 5s;animation-iteration-count:3"></div>
+			  <p>bounce</p>
+		  </th>
+		  <td>
+			  <div class="circle animated flash infinite"></div>
+			  <p>flash</p>
+		  </td>
+		  <td>
+			  <div class="circle animated pulse infinite"></div>
+			  <p>pulse</p>
+		  </td>
+		  <td>
+			  <div class="circle animated rubberBand infinite"></div>
+			  <p>rubberBand</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <div class="circle animated shake infinite"></div>
+			  <p>shake</p>
+		  </th>
+		  <td>
+			  <div class="circle animated headShake infinite"></div>
+			  <p>headShake</p>
+		  </td>
+		  <td>
+			  <div class="circle animated swing infinite"></div>
+			  <p>swing</p>
+		  </td>
+		  <td>
+			  <div class="circle animated tada infinite"></div>
+			  <p>tada</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <div class="circle animated wobble infinite"></div>
+			  <p>wobble</p>
+		  </th>
+		  <td>
+			  <div class="circle animated jello infinite"></div>
+			  <p>jello</p>
+		  </td>
+		  <td>
+			  <div class="circle animated bounceIn infinite"></div>
+			  <p>bounceIn</p>
+		  </td>
+		  <td>
+			  <div class="circle animated bounceInDown infinite"></div>
+			  <p>bounceInDown</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <div class="circle animated bounceInLeft infinite"></div>
+			  <p>bounceInLeft</p>
+		  </th>
+		  <td>
+			  <div class="circle animated bounceInRight infinite"></div>
+			  <p>bounceInRight</p>
+		  </td>
+		  <td>
+			  <div class="circle animated bounceInUp infinite"></div>
+			  <p>bounceInUp</p>
+		  </td>
+		  <td>
+			  <div class="circle animated ounceOut infinite"></div>
+			  <p>bounceOut</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <div class="circle animated bounceOutDown infinite"></div>
+			  <p>bounceOutDown</p>
+		  </th>
+		  <td>
+			  <div class="circle animated bounceOutLeft infinite"></div>
+			  <p>bounceOutLeft</p>
+		  </td>
+		  <td>
+			  <div class="circle animated bounceOutRight infinite"></div>
+			  <p>bounceOutRight</p>
+		  </td>
+		  <td>
+			  <div class="circle animated bounceOutUp infinite"></div>
+			  <p>bounceOutUp</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <div class="circle animated fadeIn infinite"></div>
+			  <p>fadeIn</p>
+		  </th>
+		  <td>
+			  <div class="circle animated fadeInDown infinite"></div>
+			  <p>fadeInDown</p>
+		  </td>
+		  <td>
+			  <div class="circle animated fadeInDownBig infinite"></div>
+			  <p>fadeInDownBig</p>
+		  </td>
+		  <td>
+			  <div class="circle animated fadeInLeft infinite"></div>
+			  <p>fadeInLeft</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <div class="circle animated fadeInLeftBig infinite"></div>
+			  <p>fadeInLeftBig</p>
+		  </th>
+		  <td>
+			  <div class="circle animated fadeInRight infinite"></div>
+			  <p>fadeInRight</p>
+		  </td>
+		  <td>
+			  <div class="circle animated fadeInRightBig infinite"></div>
+			  <p>fadeInRightBig</p>
+		  </td>
+		  <td>
+			  <div class="circle animated fadeInUp infinite"></div>
+			  <p>fadeInUp</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <div class="circle animated fadeInUpBig infinite"></div>
+			  <p>fadeInUpBig</p>
+		  </th>
+		  <td>
+			  <div class="circle animated fadeOut infinite"></div>
+			  <p>fadeOut</p>
+		  </td>
+		  <td>
+			  <div class="circle animated fadeOutDown infinite"></div>
+			  <p>fadeOutDown</p>
+		  </td>
+		  <td>
+			  <div class="circle animated fadeOutDownBig infinite"></div>
+			  <p>fadeOutDownBig</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <div class="circle animated fadeOutLeft infinite"></div>
+			  <p>fadeOutLeft</p>
+		  </th>
+		  <td>
+			  <div class="circle animated fadeOutLeftBig infinite"></div>
+			  <p>fadeOutLeftBig</p>
+		  </td>
+		  <td>
+			  <div class="circle animated fadeOutRight infinite"></div>
+			  <p>fadeOutRight</p>
+		  </td>
+		  <td>
+			  <div class="circle animated fadeOutRightBig infinite"></div>
+			  <p>fadeOutRightBig</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <div class="circle animated fadeOutUp infinite"></div>
+			  <p>fadeOutUp</p>
+		  </th>
+		  <td>
+			  <div class="circle animated fadeOutUpBig infinite"></div>
+			  <p>fadeOutUpBig</p>
+		  </td>
+		  <td>
+			  <div class="circle animated flipInX infinite"></div>
+			  <p>flipInX</p>
+		  </td>
+		  <td>
+			  <div class="circle animated flipInY infinite"></div>
+			  <p>flipInY</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <div class="circle animated flipOutX infinite"></div>
+			  <p>flipOutX</p>
+		  </th>
+		  <td>
+			  <div class="circle animated flipOutY infinite"></div>
+			  <p>flipOutY</p>
+		  </td>
+		  <td>
+			  <div class="circle animated lightSpeedIn infinite"></div>
+			  <p>lightSpeedIn</p>
+		  </td>
+		  <td>
+			  <div class="circle animated lightSpeedOut infinite"></div>
+			  <p>lightSpeedOut</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <div class="circle animated rotateIn infinite"></div>
+			  <p>rotateIn</p>
+		  </th>
+		  <td>
+			  <div class="circle animated rotateInDownLeft infinite"></div>
+			  <p>rotateInDownLeft</p>
+		  </td>
+		  <td>
+			  <div class="circle animated rotateInDownRight infinite"></div>
+			  <p>rotateInDownRight</p>
+		  </td>
+		  <td>
+			  <div class="circle animated rotateInUpLeft infinite"></div>
+			  <p>rotateInUpLeft</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <div class="circle animated rotateInUpRight infinite"></div>
+			  <p>rotateInUpRight</p>
+		  </th>
+		  <td>
+			  <div class="circle animated rotateOut infinite"></div>
+			  <p>rotateOut</p>
+		  </td>
+		  <td>
+			  <div class="circle animated rotateOutDownLeft infinite"></div>
+			  <p>rotateOutDownLeft</p>
+		  </td>
+		  <td>
+			  <div class="circle animated rotateOutDownRight infinite"></div>
+			  <p>rotateOutDownRight</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <div class="circle animated rotateOutUpLeft infinite"></div>
+			  <p>rotateOutUpLeft</p>
+		  </th>
+		  <td>
+			  <div class="circle animated rotateOutUpRight infinite"></div>
+			  <p>rotateOutUpRight</p>
+		  </td>
+		  <td>
+			  <div class="circle animated hinge infinite"></div>
+			  <p>hinge</p>
+		  </td>
+		  <td>
+			  <div class="circle animated ackInTheBox infinite"></div>
+			  <p>ackInTheBox</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <div class="circle animated rollIn infinite"></div>
+			  <p>rollIn</p>
+		  </th>
+		  <td>
+			  <div class="circle animated rollOut infinite"></div>
+			  <p>rollOut</p>
+		  </td>
+		  <td>
+			  <div class="circle animated zoomIn infinite"></div>
+			  <p>zoomIn</p>
+		  </td>
+		  <td>
+			  <div class="circle animated zoomInDown infinite"></div>
+			  <p>zoomInDown</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <div class="circle animated zoomInLeft infinite"></div>
+			  <p>zoomInLeft</p>
+		  </th>
+		  <td>
+			  <div class="circle animated zoomInRight infinite"></div>
+			  <p>zoomInRight</p>
+		  </td>
+		  <td>
+			  <div class="circle animated zoomInUp infinite"></div>
+			  <p>zoomInUp</p>
+		  </td>
+		  <td>
+			  <div class="circle animated zoomOut infinite"></div>
+			  <p>zoomOut</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <div class="circle animated zoomOutDown infinite"></div>
+			  <p>zoomOutDown</p>
+		  </th>
+		  <td>
+			  <div class="circle animated zoomOutLeft infinite"></div>
+			  <p>zoomOutLeft</p>
+		  </td>
+		  <td>
+			  <div class="circle animated zoomOutRight infinite"></div>
+			  <p>zoomOutRight</p>
+		  </td>
+		  <td>
+			  <div class="circle animated zoomOutUp infinite"></div>
+			  <p>zoomOutUp</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <div class="circle animated slideInDown infinite"></div>
+			  <p>slideInDown</p>
+		  </th>
+		  <td>
+			  <div class="circle animated slideInLeft infinite"></div>
+			  <p>slideInLeft</p>
+		  </td>
+		  <td>
+			  <div class="circle animated slideInRight infinite"></div>
+			  <p>slideInRight</p>
+		  </td>
+		  <td>
+			  <div class="circle animated slideInUp infinite"></div>
+			  <p>slideInUp</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <div class="circle animated slideOutDown infinite"></div>
+			  <p>slideOutDown</p>
+		  </th>
+		  <td>
+			  <div class="circle animated slideOutLeft infinite"></div>
+			  <p>slideOutLeft</p>
+		  </td>
+		  <td>
+			  <div class="circle animated slideOutRight infinite"></div>
+			  <p>slideOutRight</p>
+		  </td>
+		  <td>
+			  <div class="circle animated slideOutUp infinite"></div>
+			  <p>slideOutUp</p>
+		  </td>
+		</tr>
+		<tr>
+		  <th scope="row">
+			  <div class="circle animated heartBeat infinite"></div>
+			  <p>heartBeat</p>
+		  </th>
+		  <!-- <td>
+			  <div class="circle animated slideOutLeft infinite"></div>
+			  <p>slideOutLeft</p>
+		  </td>
+		  <td>
+			  <div class="circle animated slideOutRight infinite"></div>
+			  <p>slideOutRight</p>
+		  </td>
+		  <td>
+			  <div class="circle animated slideOutUp infinite"></div>
+			  <p>slideOutUp</p>
+		  </td> -->
+		</tr>
+	  </tbody>
+	</table>
+
+	
+</body>
+</html>

@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*動畫css*/
+	
+	img,
+
+	img.list-mv01,
+	div.list-mv01,
+	p.list-mv01,
+	ul.list-mv01,
+	a.list-mv01,
+	table.list-mv01,
+	li.list-mv01,
+	h4.list-mv01,
+	section.list-mv01,
+	
+	img.list-mv02,
+	div.list-mv02,
+	p.list-mv02,
+	ul.list-mv02,
+	a.list-mv02,
+	table.list-mv02,
+	li.list-mv02,
+	h4.list-mv02,
+	section.list-mv02,
+
+	img.list-mv03,
+	div.list-mv03,
+	p.list-mv03,
+	ul.list-mv03,
+	a.list-mv03,
+	table.list-mv03,
+	li.list-mv03,
+	h4.list-mv03,
+	section.list-mv03
+	{
+		transition: 1.5s;
+	}
+
+	
+
+/*由下往上淡入效果*/
+.list-mv01 {
+	opacity: 0;
+	transform: translate(0, 60px);
+	-webkit-transform: translate(0, 60px)
+}
+
+.mv01 {
+	opacity: 1;
+	transform: translate(0, 0);
+	-webkit-transform: translate(0, 0)
+}
+
+/*由右往左淡入效果*/
+.list-mv02 {
+	opacity: 0;
+	transform: translate(60px, 0);
+	-webkit-transform: translate(60px, 0)
+}
+
+.mv02 {
+	opacity: 1;
+	transform: translate(0, 0);
+	-webkit-transform: translate(0, 0)
+}
+
+/*由左往右淡入效果*/
+.list-mv03 {
+	opacity: 0;
+	transform: translate(-60px, 0);
+	-webkit-transform: translate(-60px, 0)
+}
+
+.mv03 {
+	opacity: 1;
+	transform: translate(0, 0);
+	-webkit-transform: translate(0, 0)
+}
+

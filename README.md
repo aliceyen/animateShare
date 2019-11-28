@@ -121,7 +121,7 @@ mac：safari,edge,chrome,firefox_
 另外，可搭配的效果如下：<br>
 data-wow-duration（動畫持續時間）<br>
 data-wow-delay（動畫延遲時間）<br>
-data-wow-offset（元素的位置露出後距離底部多少像素執行<br>
+data-wow-offset（元素的位置露出後距離底部多少像素執行)<br>
 data-wow-iteration（動畫執行次數）(要一直重複的話可以用"infinite")
 
 ```html

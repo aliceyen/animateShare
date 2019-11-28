@@ -52,7 +52,7 @@ _Animate.css 為我們預建了 75 種不同的動態效果，我們只要透過
 
    <!-- class註解 -->
    animated: 啟用動畫
-   flash:    彈跳效果
+   flash:    動畫效果的名稱“class”
    infinite: 無限循環
 
    <!-- 或是利用 CSS3 的屬性來調整動畫的次數與速度 -->

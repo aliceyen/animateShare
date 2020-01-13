@@ -73,7 +73,7 @@ _以上的方式常在日式網頁上常常看到，在範例中用圓點的樣�
 
 *  [原套件官網](https://loading.io/animation/)<br>
 
-*  [試套結果](http://www.milky-sky.com/brangista/NBBigMacTest/)  
+*  [試套結果](http://www.milky-sky.com/brangista/animateShare/NBBigMacTest/)  
 
 
 * * *

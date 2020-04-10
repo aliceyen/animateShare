@@ -1,0 +1,36 @@
+.testDiv{
+  width: 476px;
+  height: 477px;
+  position: relative;
+  background: #000;
+}
+.diffusion{
+  background: url('02.png') no-repeat center;
+  position: absolute;
+  z-index: 3;
+  top: 0px;
+  left: 0;
+  width: 476px;
+  height: 477px;
+}
+.light01{
+
+  background: url('01.jpg') no-repeat center;
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 0;
+   width: 476px;
+  height: 477px;
+}
+.light02{
+
+  background: url('01.jpg') no-repeat center;
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  left: 0;
+   width: 476px;
+  height: 477px;
+  transform: rotate(-90deg)
+}

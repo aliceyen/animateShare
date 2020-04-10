@@ -61,6 +61,8 @@ _Animate.css 為我們預建了 75 種不同的動態效果，我們只要透過
 ```
 
 *  [animate.css 範例](http://www.milky-sky.com/brangista/animateShare/animateCSS01/animateCSS.html)<br>
+
+*  [使用animate.css 做出星辰飄逸感](http://www.milky-sky.com/brangista/animateShare/lightDiffusion/)<br>
   
 *  [原套件官網](https://daneden.github.io/animate.css/)<br>
 

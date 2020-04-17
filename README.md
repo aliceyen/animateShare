@@ -126,6 +126,8 @@ data-wow-delay（動畫延遲時間）<br>
 data-wow-offset（元素的位置露出後距離底部多少像素執行)<br>
 data-wow-iteration（動畫執行次數）(要一直重複的話可以用"infinite")
 
+*  [jQuery animate easing效果延伸](https://github.com/aliceyen/jQuery-animate-easing)
+
 ```html
    <section class="wow bounce" data-wow-offset="10" data-wow-iteration="10">測試</section>
     
